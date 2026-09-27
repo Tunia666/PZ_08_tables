@@ -4,3 +4,28 @@ table { width: 100%; border-collapse: collapse; }
 th, td { border: 1px solid #aaa; padding: 12px; text-align: left; }
 caption { margin-bottom: 12px; font-weight: 700; }
 thead { background: #ececec; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #000000;
+}
+
+/* Внутренние отступы и выравнивание */
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Оформление шапки */
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Чередование строк (зебра) */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
