@@ -2,5 +2,9 @@ body { margin: 0; font-family: Arial, sans-serif; color: #222; }
 .page { max-width: 900px; margin: 0 auto; padding: 48px 24px; }
 table { width: 100%; border-collapse: collapse; }
 th, td { border: 1px solid #aaa; padding: 12px; text-align: left; }
-caption { margin-bottom: 12px; font-weight: 700; }
+caption { margin-bottom: 12px; font-weight: 700; text-align: left; }
 thead { background: #ececec; }
+tbody tr:nth-child(even) { background-color: #f7f7f7; }
+td[colspan] { text-align: center; background-color: #fff3cd; }
+tfoot { background-color: #ececec; font-weight: 700; }
+tfoot td { text-align: center; }
